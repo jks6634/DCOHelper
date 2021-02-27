@@ -1,13 +1,13 @@
-from DCOHelper.src.rollers.RollDie import RollDie
+import RollDie
 
-Die = RollDie()
+Die = RollDie.RollDice()
 diceSize = 10
 numberOfDuds = 6
 maxNumberOfDice = 4
 
 
-class DisadvantageRoller:
-    def RollDice(numberOfDice = 1):
+class DisadvantageRollerObj:
+    def RollDice(self, numberOfDice = 1):
         numDice = numberOfDice
         numDudsRolled = 0
 
