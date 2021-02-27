@@ -1,4 +1,4 @@
-from DCOHelper.src.RollDie import RollDie
+from DCOHelper.src.rollers.RollDie import RollDie
 
 Die = RollDie()
 diceSize = 8
